@@ -1,0 +1,93 @@
+/* src/components/Todo.css */
+body{
+    background-color: #45dfb1;
+}
+.todo-container {
+    
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #80ed99;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li .todo-text {
+    flex-grow: 1;
+    margin-right: 10px; /* Add margin between text and actions */
+  }
+  
+  li .todo-actions {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+  }
+  
+  li button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  li button.delete-btn {
+    background-color: #dc3545;
+  }
+  
+  li button.delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  li button.edit-btn {
+    background-color: #0ad1c8;
+  }
+  
+  li button.edit-btn:hover {
+    background-color: #218838;
+  }
+  
